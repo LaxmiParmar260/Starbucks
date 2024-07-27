@@ -533,6 +533,11 @@
 }
 
 @media (max-width: 480px) {
+  body{
+    position: relative;
+    width: 100%;
+    left: 17px;
+  }
   .left-head img {
     height: 60px;
     width: 60px;
