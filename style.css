@@ -1,0 +1,663 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 3px 0px gray;
+  padding-inline: 30px;
+}
+.left-head img {
+  height: 70px;
+  width: 20%;
+}
+.left-head {
+  display: flex;
+  align-items: center;
+}
+.left-head a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 20px;
+  color: black;
+}
+.headbtn1 {
+  width: 80px;
+  height: 35px;
+  border-radius: 30px;
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  margin-right: 10px;
+}
+.headbtn2 {
+  height: 35px;
+  width: 100px;
+  border-radius: 30px;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  margin-right: 10px;
+}
+.right-head a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 50px;
+  color: black;
+  position: relative;
+}
+.right-head i {
+  font-size: 20px;
+  position: relative;
+}
+.gift {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+.gift .left {
+  height: 420px;
+  width: 47%;
+  background-image: url(./images//137-93215.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gift .right {
+  height: 420px;
+  width: 47%;
+  background-color: #006241;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.gift .right h2 {
+  position: relative;
+  bottom: 40px;
+}
+
+.gift .right p {
+  position: relative;
+  bottom: 20px;
+  line-height: 1.8;
+  font-size: 20px;
+  font-family: emoji;
+}
+
+.gift .right button {
+  height: 40px;
+  width: 15%;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: #006241;
+  border-radius: 20px;
+  border: 1px solid white;
+  position: relative;
+}
+
+/* summur day */
+
+.summer-day {
+  height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 40px;
+}
+.summer-day .right {
+  height: 550px;
+  width: 47%;
+  background-color: #a3029a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.summer-day .right h2 {
+  font-size: 50px;
+  font-weight: 400;
+  position: relative;
+  bottom: 40px;
+}
+
+.summer-day .right p {
+  position: relative;
+  bottom: 20px;
+  line-height: 1.3;
+  font-size: 30px;
+  font-family: emoji;
+}
+
+.summer-day .right button {
+  height: 40px;
+  width: 15%;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: #a3029a;
+  border-radius: 20px;
+  border: 1px solid white;
+  position: relative;
+}
+.summer-day .left {
+  height: 550px;
+  width: 47%;
+  background-image: url(./images/137-93232.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* manu part */
+.menu {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 55px;
+}
+.menu .left {
+  height: 420px;
+  width: 47%;
+  background-image: url(./images/137-93208.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu .right {
+  height: 420px;
+  width: 47%;
+  background-color: #d3eae2;
+  color: #1e3932;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.menu .right h2 {
+  position: relative;
+  bottom: 40px;
+}
+
+.menu .right p {
+  position: relative;
+  bottom: 20px;
+  line-height: 1.8;
+  font-size: 20px;
+  font-family: emoji;
+}
+
+.menu .right button {
+  height: 40px;
+  width: 18%;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e3932;
+  background-color: #d3eae2;
+  border-radius: 20px;
+  border: 1px solid #1e3932;
+  position: relative;
+}
+
+/* Planet part */
+
+.planet {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 55px;
+}
+.planet .right {
+  height: 420px;
+  width: 47%;
+  background-color: #97d8b1;
+  color: #1e3932;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.planet .right h2 {
+  position: relative;
+  bottom: 40px;
+}
+
+.planet .right p {
+  position: relative;
+  bottom: 20px;
+  line-height: 1.8;
+  font-size: 20px;
+  font-family: emoji;
+}
+.planet .right button {
+  height: 40px;
+  width: 18%;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e3932;
+  background-color: #97d8b1;
+  border-radius: 20px;
+  border: 1px solid #1e3932;
+  position: relative;
+}
+
+.planet .left {
+  height: 420px;
+  width: 47%;
+  background-image: url(./images/137-93234.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* paragraf part */
+.offer {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  border: 1px solid white;
+  box-shadow: 0px 1px 0px 0px gray;
+}
+
+.offer .box {
+  height: 150px;
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+.box p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+/* last-part */
+.last-part{
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  top: 70px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid gray;
+  box-shadow: 2px 0px 0px 0px gray;
+  position:relative;
+  left:30px
+
+}
+.box-part{
+  height: auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.box-part .box{
+  height: auto;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.box-part .box h3{
+  font-weight: lighter;
+  padding: 15px;
+}
+.box-part .box a{
+  text-decoration: none;
+  color: gray;
+  font-weight: lighter;
+  position: relative;
+  padding: 15px;
+}
+.box-part .box a:hover{
+  color: black;
+ 
+}
+.logo{
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  left: 40px;
+ 
+}
+.logo .icons{
+  height: 70px;
+  width: 20%;
+  display: flex;
+}
+.logo .icons i{
+  height: 100px;
+  width: 20%;
+  font-size: 35px;
+  }
+.logo a{
+  text-decoration: none;
+  height: 30px;
+  width: 40%;
+  color: black;
+}
+
+
+
+@media (max-width: 768px) {
+  .left-head img {
+    height: 60px;
+    width: 60px;
+  }
+  .left-head a {
+    display: none;
+  }
+  .right-head i {
+    display: none;
+  }
+  .right-head a {
+    display: none;
+  }
+  .right-head .headbtn1 {
+    display: none;
+  }
+  .gift {
+    height: 350px;
+    width: 100%;
+    background-color: #006241;
+  }
+  .gift .left {
+    height: 230px;
+    width: 50%;
+  }
+  .gift .right {
+    height: 230px;
+    width: 50%;
+  }
+  .gift .right p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .gift .right p br {
+    display: none;
+  }
+  .gift .right button {
+    height: 30px;
+    width: 30%;
+  }
+
+  .summer-day {
+    height: 350px;
+    width: 100%;
+    background-color: white;
+  }
+  .summer-day .right {
+    height: 310px;
+    width: 50%;
+  }
+
+  .summer-day .right h2 {
+    font-size: 30px;
+  }
+  .summer-day .right p {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .summer-day .right p br {
+    display: none;
+  }
+  .summer-day .right button {
+    height: 30px;
+    width: 30%;
+  }
+  .summer-day .left {
+    height: 310px;
+    width: 50%;
+  }
+
+  .menu {
+    height: 350px;
+    width: 100%;
+  }
+  .menu .left {
+    height: 350px;
+    width: 50%;
+  }
+
+  .menu .right {
+    height: 350px;
+    width: 50%;
+  }
+  .menu .right p {
+    position: relative;
+    top: 10px;
+    line-height: 1.3;
+  }
+  .menu .right p br {
+    display: none;
+  }
+  .menu .right h2 {
+    position: relative;
+    top: 1px;
+  }
+  .menu .right button {
+    position: relative;
+    top: 20px;
+    height: 30px;
+    width: 30%;
+  }
+
+  .planet {
+    height: 400px;
+    width: 100%;
+  }
+  .planet .right {
+    height: 350px;
+    width: 50%;
+  }
+  .planet .left {
+    height: 350px;
+    width: 50%;
+  }
+  .planet p br {
+    display: none;
+  }
+
+  .planet .right button {
+    height: 30px;
+    width: 30%;
+  }
+  .offer {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .offer .box {
+    height: 100px;
+    width: 50%;
+    font-size: 15px;
+  }
+  .box-part{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+  }
+  .box-part .box{
+    width: 100%;
+
+  }
+
+ .last-part .box-part .box a{
+  display: none;
+ }
+.logo{
+  position: relative;
+  top: 50px;
+}
+ .logo .icons{
+  height: 30px;
+  width: 40%;
+   position: relative;
+   bottom: 30px;
+ }
+}
+
+@media (max-width: 480px) {
+  .left-head img {
+    height: 60px;
+    width: 60px;
+  }
+  .left-head a {
+    display: none;
+  }
+  .right-head i {
+    display: none;
+  }
+  .right-head a {
+    display: none;
+  }
+  .right-head .headbtn1 {
+    display: none;
+  }
+  .gift {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  .gift .left {
+    height: 500px;
+    width: 100%;
+  }
+  .gift .right {
+    height: 450px;
+    width: 100%;
+  }
+  .gift .right h2 {
+    position: relative;
+    top: 0px;
+  }
+  .gift .right p {
+    position: relative;
+    top: 5px;
+  }
+  .gift .right button {
+    position: relative;
+    top: 20px;
+  }
+  .summer-day {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .summer-day .left {
+    height: 500px;
+    width: 100%;
+  }
+  .summer-day .right {
+    height: 250px;
+    width: 100%;
+  }
+  .summer-day .right h2 br {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+  }
+
+  .menu .left {
+    height: 300px;
+    width: 100%;
+  }
+  .menu .right {
+    height: 300px;
+    width: 100%;
+  }
+
+  .planet {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    top: 80px;
+    bottom: 30px;
+  }
+
+  .planet .right {
+    width: 100%;
+  }
+  .planet .left {
+    width: 100%;
+  }
+  .offer {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-style: none;
+  }
+  .offer .box {
+    height: 200px;
+    width: 90%;
+    position: relative;
+    top: 80px;
+  }
+  .offer .box p {
+    font-size: 14px;
+  }
+  .offer .box p br {
+    display: none;
+  }
+  .logo{
+    position: relative;
+    top: 50px;
+  }
+   .logo .icons{
+    height: 30px;
+    width: 70%;
+     position: relative;
+     bottom: 30px;
+   }
+   .logo a{
+    height: 30px;
+    width: 100%;
+   }
+}
